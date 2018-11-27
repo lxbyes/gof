@@ -3,8 +3,8 @@ package me.leckie.gof.interpreter;
 import java.util.StringTokenizer;
 
 /**
- * @author laixianbo
- * @version $Id: TerminalExpression.java, v0.1 2018/11/27 13:28 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: TerminalExpression.java, v0.1 2018/11/27 13:28 Leckie Exp $$
  */
 public class TerminalExpression extends Expression {
 

@@ -1,8 +1,8 @@
 package me.leckie.gof.command;
 
 /**
- * @author laixianbo
- * @version $Id: Invoker.java, v0.1 2018/11/27 12:28 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: Invoker.java, v0.1 2018/11/27 12:28 Leckie Exp $$
  */
 public class Invoker {
 

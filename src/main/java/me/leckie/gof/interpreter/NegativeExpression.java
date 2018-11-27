@@ -1,8 +1,8 @@
 package me.leckie.gof.interpreter;
 
 /**
- * @author laixianbo
- * @version $Id: NegativeExpression.java, v0.1 2018/11/27 13:43 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: NegativeExpression.java, v0.1 2018/11/27 13:43 Leckie Exp $$
  */
 public class NegativeExpression extends Expression {
 

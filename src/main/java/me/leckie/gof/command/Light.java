@@ -1,8 +1,8 @@
 package me.leckie.gof.command;
 
 /**
- * @author laixianbo
- * @version $Id: Light.java, v0.1 2018/11/27 11:56 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: Light.java, v0.1 2018/11/27 11:56 Leckie Exp $$
  */
 public class Light {
 

@@ -1,8 +1,8 @@
 package me.leckie.gof.interpreter;
 
 /**
- * @author laixianbo
- * @version $Id: OrExpression.java, v0.1 2018/11/27 13:40 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: OrExpression.java, v0.1 2018/11/27 13:40 Leckie Exp $$
  */
 public class OrExpression extends Expression {
 

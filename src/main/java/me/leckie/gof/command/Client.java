@@ -1,8 +1,8 @@
 package me.leckie.gof.command;
 
 /**
- * @author laixianbo
- * @version $Id: Client.java, v0.1 2018/11/27 12:46 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: Client.java, v0.1 2018/11/27 12:46 Leckie Exp $$
  */
 public class Client {
 

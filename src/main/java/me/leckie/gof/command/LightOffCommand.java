@@ -1,8 +1,8 @@
 package me.leckie.gof.command;
 
 /**
- * @author laixianbo
- * @version $Id: LightOffCommand.java, v0.1 2018/11/27 11:58 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: LightOffCommand.java, v0.1 2018/11/27 11:58 Leckie Exp $$
  */
 public class LightOffCommand implements Command {
 

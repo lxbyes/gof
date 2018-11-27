@@ -1,8 +1,8 @@
 package me.leckie.gof.command;
 
 /**
- * @author laixianbo
- * @version $Id: Command.java, v0.1 2018/11/27 11:55 laixianbo Exp $$
+ * @author Leckie
+ * @version $Id: Command.java, v0.1 2018/11/27 11:55 Leckie Exp $$
  */
 public interface Command {
 
