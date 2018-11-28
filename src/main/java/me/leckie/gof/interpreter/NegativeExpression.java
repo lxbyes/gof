@@ -6,14 +6,14 @@ package me.leckie.gof.interpreter;
  */
 public class NegativeExpression extends Expression {
 
-    private Expression expression = null;
+  private Expression expression = null;
 
-    public NegativeExpression(Expression expression) {
-        this.expression = expression;
-    }
+  public NegativeExpression(Expression expression) {
+    this.expression = expression;
+  }
 
-    @Override
-    public boolean interpret(String str) {
-        return !expression.interpret(str);
-    }
+  @Override
+  public boolean interpret(String str) {
+    return !expression.interpret(str);
+  }
 }

@@ -6,14 +6,14 @@ package me.leckie.gof.command;
  */
 public class LightOnCommand implements Command {
 
-    private Light light;
+  private Light light;
 
-    public LightOnCommand(Light light) {
-        this.light = light;
-    }
+  public LightOnCommand(Light light) {
+    this.light = light;
+  }
 
-    @Override
-    public void execute() {
-        light.on();
-    }
+  @Override
+  public void execute() {
+    light.on();
+  }
 }

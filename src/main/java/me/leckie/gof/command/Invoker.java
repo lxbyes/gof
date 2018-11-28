@@ -6,30 +6,28 @@ package me.leckie.gof.command;
  */
 public class Invoker {
 
-    private Command[] onCommands;
+  private final int slotNum = 7;
+  private Command[] onCommands;
+  private Command[] offCommands;
 
-    private Command[] offCommands;
+  public Invoker() {
+    onCommands = new Command[slotNum];
+    offCommands = new Command[slotNum];
+  }
 
-    private final int slotNum = 7;
+  public void setOnCommands(int slot, Command onCommand) {
+    this.onCommands[slot] = onCommand;
+  }
 
-    public Invoker() {
-        onCommands = new Command[slotNum];
-        offCommands = new Command[slotNum];
-    }
+  public void setOffCommands(int slot, Command offCommand) {
+    this.offCommands[slot] = offCommand;
+  }
 
-    public void setOnCommands(int slot, Command onCommand) {
-        this.onCommands[slot] = onCommand;
-    }
+  public void onButtonWasPushed(int slot) {
+    onCommands[slot].execute();
+  }
 
-    public void setOffCommands(int slot, Command offCommand) {
-        this.offCommands[slot] = offCommand;
-    }
-
-    public void onButtonWasPushed(int slot) {
-        onCommands[slot].execute();
-    }
-
-    public void offButtonWasPushed(int slot) {
-        offCommands[slot].execute();
-    }
+  public void offButtonWasPushed(int slot) {
+    offCommands[slot].execute();
+  }
 }

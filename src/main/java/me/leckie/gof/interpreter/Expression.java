@@ -6,6 +6,6 @@ package me.leckie.gof.interpreter;
  */
 public abstract class Expression {
 
-    public abstract boolean interpret(String str);
+  public abstract boolean interpret(String str);
 
 }

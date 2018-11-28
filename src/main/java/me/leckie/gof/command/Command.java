@@ -6,5 +6,5 @@ package me.leckie.gof.command;
  */
 public interface Command {
 
-    void execute();
+  void execute();
 }

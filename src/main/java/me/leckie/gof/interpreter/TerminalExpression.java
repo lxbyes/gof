@@ -8,21 +8,21 @@ import java.util.StringTokenizer;
  */
 public class TerminalExpression extends Expression {
 
-    private String literal = null;
+  private String literal = null;
 
-    public TerminalExpression(String str) {
-        this.literal = str;
-    }
+  public TerminalExpression(String str) {
+    this.literal = str;
+  }
 
-    @Override
-    public boolean interpret(String str) {
-        StringTokenizer stringTokenizer = new StringTokenizer(str);
-        while (stringTokenizer.hasMoreTokens()) {
-            String test = stringTokenizer.nextToken();
-            if (test.equals(literal)) {
-                return true;
-            }
-        }
-        return false;
+  @Override
+  public boolean interpret(String str) {
+    StringTokenizer stringTokenizer = new StringTokenizer(str);
+    while (stringTokenizer.hasMoreTokens()) {
+      String test = stringTokenizer.nextToken();
+      if (test.equals(literal)) {
+        return true;
+      }
     }
+    return false;
+  }
 }
